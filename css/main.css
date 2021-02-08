@@ -11,15 +11,19 @@
 
 /* COMMON */
 h1 {
-    margin: 30px auto;
-    font-size: 40px;
+  margin: 30px auto;
+  font-size: 40px;
 }
 
 img {
-    height: 200px;
+  height: 200px;
 }
 
-
+.float-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* BLOCCO LEZIONI */
 #lezioni .row img {
@@ -85,8 +89,22 @@ img {
   }
 
   /* BLOCCO WHY */
+  #why .left, #why .right {
+    display: inline-block;
+    float: left;
+  }
+
+  #why .left {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  #why .right {
+    width: 65%;
+  }
+
   #why .row img {
-    height: 120px;
+    height: 100px;
     padding: 15px;
   }
 
