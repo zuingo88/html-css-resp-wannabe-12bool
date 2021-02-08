@@ -1,10 +1,27 @@
-/* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
+.page-container {
+  padding: 5px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
+.page-container * {
+  padding: 5px;
+}
+
+/* COMMON */
+h1 {
+    margin: 30px auto;
+    font-size: 40px;
+}
+
+img {
+    height: 200px;
+}
+
+
+
+/* BLOCCO LEZIONI */
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -14,4 +31,30 @@
 
 #lezioni {
   text-align: center;
+}
+
+
+
+/* BLOCCO STEPS */
+#steps {
+  text-align: center;
+}
+
+.container.grey {
+  background-color: #EFEFEF;
+  border: solid 1px #A7A7A7;
+  border-radius: 10px;
+}
+
+
+
+/* BLOCCO WHY */
+#why {
+  text-align: center;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
 }
