@@ -86,25 +86,30 @@ img {
   /* BLOCCO STEPS */
   #steps .row img {
     height: 150px;
+    /* margin: auto; */
   }
 
   /* BLOCCO WHY */
   #why .left, #why .right {
-    display: inline-block;
     float: left;
+    display: inline-block;
   }
 
   #why .left {
-    width: 30%;
+    width: 20%;
+    min-width: 65px;
+    max-width: 100px;
     padding-top: 30px;
   }
 
   #why .right {
-    width: 65%;
+    width: 75%;
+    text-align: left;
   }
 
   #why .row img {
-    height: 100px;
+    width: 100%;
+    height: auto;
     padding: 15px;
   }
 
