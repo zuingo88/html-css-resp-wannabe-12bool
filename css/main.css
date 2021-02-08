@@ -56,5 +56,41 @@ img {
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
+}
+
+
+
+/* VERSIONE MOBILE */
+@media all and (max-width: 767px) {
+
+  /* GENERALI */
+  .container {
+    font-size: 85%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row img {
+    width: auto;
+    height: 100px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row img {
+    height: 150px;
+  }
+
+  /* BLOCCO WHY */
+  #why .row img {
+    height: 120px;
+    padding: 15px;
+  }
+
+  #why .row > div {
+    margin-bottom: 20px;
+  }
 }
