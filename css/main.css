@@ -98,12 +98,13 @@ img {
   #why .left {
     width: 20%;
     min-width: 65px;
-    max-width: 100px;
+    max-width: 90px;
     padding-top: 30px;
   }
 
   #why .right {
     width: 75%;
+    min-width: 220px;
     text-align: left;
   }
 
